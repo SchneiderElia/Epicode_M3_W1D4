@@ -2,6 +2,45 @@
     margin: 0;
 }
 
+/*-------------NAVBAR-----------------*/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+header button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    background-color: bisque;
+    border-radius: 100px;
+    border-color: bisque;
+    padding: 10px 20px;
+    font-family: "Outfit";
+    font-weight: 500;
+    
+}
+
+header a {
+    text-decoration: none;
+}
+
+header button img {
+    height: 30px;
+    margin-right: 10px;
+}
+
+header a:nth-child(3) button {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+
 /*-------------ARTICLE-----------------*/
 
 .article {
