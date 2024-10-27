@@ -23,7 +23,12 @@ header button {
     padding: 10px 20px;
     font-family: "Outfit";
     font-weight: 500;
-    
+    box-shadow: 0px 3px 20px  #a15a1c;
+    cursor: pointer;
+}
+
+header button:hover{
+    background-color: #ffa04cb9;
 }
 
 header a {
